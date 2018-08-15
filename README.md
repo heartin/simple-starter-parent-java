@@ -6,11 +6,11 @@ This project will contain a parent project for Non-Spring Boot projects. For Spr
 
 ### Prerequisites
 
-1. Clone and install simple-starter-build-tools <br>
+1. Clone and install simple-starter-build-tools from https://github.com/heartin/simple-starter-build-tools <br>
 
 ### Building the project
 1. Clone and install simple-starter-parent-java (this project) <br>
-git clone https://github.com/heartin/simple-boot-parent-java.git <br>
+git clone https://github.com/heartin/simple-starter-parent-java.git <br>
 Run './mvnw clean install' or 'mvn clean install'
 
 ## References
