@@ -14,12 +14,31 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
         <lombok.version>1.18.2</lombok.version>
+        <junit.version>4.12</junit.version>
+        <mockito.version>2.21.0</mockito.version>
         <checkstyle.version>3.0.0</checkstyle.version>
         <maven.shade.plugin.version>3.1.1</maven.shade.plugin.version>
         <build.tools.location>${project.build.directory}/buildtools</build.tools.location>
     </properties>
 
     <dependencies>
+
+        <!-- https://mvnrepository.com/artifact/junit/junit -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.mockito/mockito-core -->
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-core</artifactId>
+            <version>${mockito.version}</version>
+            <scope>test</scope>
+        </dependency>
+
         <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
         <dependency>
             <groupId>org.projectlombok</groupId>
