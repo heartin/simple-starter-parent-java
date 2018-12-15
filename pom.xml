@@ -6,7 +6,7 @@
 
     <groupId>tech.heartin.projects.starters</groupId>
     <artifactId>simple-starter-parent-java</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <properties>
@@ -18,6 +18,7 @@
         <mockito.version>2.21.0</mockito.version>
         <checkstyle.version>3.0.0</checkstyle.version>
         <maven.shade.plugin.version>3.1.1</maven.shade.plugin.version>
+        <simple.starter.build.tools.version>1.0.0</simple.starter.build.tools.version>
         <build.tools.location>${project.build.directory}/buildtools</build.tools.location>
     </properties>
 
@@ -90,9 +91,9 @@
                         <configuration>
                             <artifactItems>
                                 <artifactItem>
-                                    <groupId>tech.heartin.projects.tools</groupId>
+                                    <groupId>tech.heartin.starters</groupId>
                                     <artifactId>simple-starter-build-tools</artifactId>
-                                    <version>${project.version}</version>
+                                    <version>${simple.starter.build.tools.version}</version>
                                     <type>jar</type>
                                     <overWrite>true</overWrite>
                                     <outputDirectory>${project.build.directory}/buildtools</outputDirectory>
