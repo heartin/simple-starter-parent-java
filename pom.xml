@@ -154,8 +154,10 @@
         </plugins>
     </reporting>
 
+    <!-- Below configuration is required for publishing projects to Maven Central repository -->
+
     <name>Simple Starter Parent Java</name>
-    <description>Project to store build artifacts for starter projects</description>
+    <description>Starter parent project for simple java projects</description>
     <url>https://github.com/heartin/simple-starter-parent-java</url>
 
     <organization>
